@@ -99,10 +99,17 @@
 
 10. **Oh My ZSH**
 
+    - How did I make it this far down the list without prettying up my terminal?
+
+    - Install via command:
+
+    - This setup is a little more involved, so I'm going to transfer further instructions to the **DetailedGuides** folder in this repo.
+
 <br/>
 
 11. **yarn**
 
+    - The documentation site suggests using **npm** to install: `npm install --global yarn`
 
 
 ## Extra-Development Essentials
