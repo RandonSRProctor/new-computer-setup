@@ -1,8 +1,8 @@
-# Sequential Installation 2022
+# Sequential Installation and Setup - 2022
 
-This is an in-order list of installations that I used to set up my M1 2021 Macbook Air.
+This is an in-order list of installations, configurations, and setup steps that I used to set up my M1 2021 Macbook Air.
 
-You don't *have* to install in this order, but your life will be a lot easier if you do.
+You don't *have* to set things up in this order, but your life will be a lot easier if you do.
 
 1. **Chrome**
 
@@ -13,6 +13,18 @@ You don't *have* to install in this order, but your life will be a lot easier if
 2. **VS Code**
 
     - Via download on website.  Chose M1 download option.
+
+    - Note: As of writing this, VS Code's installer still doesn't prompt you to move the application file to your Applications folder.
+    
+        - This means that you might launch the app from your Downloads folder, then right click the active icon and add it to your dock, and never realize that you're always launching from your Downloads folder.  
+        
+        - Hilariously, you might go a while without realizing a problem, and then one day clear out your Downloads folder, and all of a sudden you don't have VS Code anymore.  (Another problem with this is that if you install PATH with VS Code and it lives in the Downloads folder, the PATH will not work after you close VS Code)
+
+        - So the moral of this story is: upon downloading VS Code, drag the app from your downloads folder into your Applications folder.
+
+    - After you've opened VS Code, be sure to hit `cmd+shift+P` and then type "path".  Then choose: `Shell Command: install 'code' command in PATH`
+
+
 
 <br/>
 
@@ -57,7 +69,11 @@ You don't *have* to install in this order, but your life will be a lot easier if
 
     - So far I have not installed **Rosetta 2**, I want to see how far I can get.  Older versions of **node** might not be compatable with M1, so for now I'm just gonna stick with modern **node** versions and leave emulation out of the picture.  (We'll see how long that lasts!)
 
+7. **Set Up git**
 
+    - Even though **git** is installed via **Xcode**, you still need to get your **git** account set up with your preffered remote repository hosting service- most likely GitHub.
+
+    - The directions are thorough enough that I will not put them here, rather 
 
 **Rosetta 2**
 

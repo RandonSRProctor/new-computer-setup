@@ -6,6 +6,8 @@
     - Can it be two?
 - Docker
 - UTM -> Ubuntu for Docker?
+- make README.md
+- Consider grand order for future readers
 
 
 ## To Install
