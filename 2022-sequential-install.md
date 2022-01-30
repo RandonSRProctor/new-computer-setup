@@ -1,8 +1,13 @@
 # Sequential Installation and Setup - 2022
 
-This is an in-order list of installations, configurations, and setup steps that I used to set up my M1 2021 Macbook Air.
+*This is an in-order list of installations, configurations, and setup steps that I used to set up my M1 2021 Macbook Air.*
 
-You don't *have* to set things up in this order, but your life will be a lot easier if you do.
+*You don't *have* to set things up in this order, but your life will be a lot easier if you do.*
+
+<br/>
+
+## Development Essentials
+---
 
 1. **Chrome**
 
@@ -75,11 +80,44 @@ You don't *have* to set things up in this order, but your life will be a lot eas
 
     - The directions are thorough enough that I will not put them here, rather 
 
-**Rosetta 2**
+
+8.  **Rosetta 2**
+
+    - I made it so far!!!  I want to try a new application called **Macdown** (next in line), and also will need to use **Discord** (in next section), and both do not currently have native M1 support.  Hopefully in the near future this entry and all **Rosetta 2** references will be completely unneessesary.
+
+    - Via command: `softwareupdate --install-rosetta`
+
+
+
+9. **Macdown**
+
+    - Via homebrew command: `brew install --cask macdown`
+
+    - As I was making this list, my wife (Helen) asked me if I could give her an app that I wrote for her that translates her excel-format medical notes into nicely presentable **markdown** files.  She doesn't have a **markdown** reader/editor, so I'm looking for one that she can use that doesn't have too many bells and whistles.
+
+    - I've been looking for a new **markdown** editor outside of VS Code anyway, so this may or may not be considered an developer essential in the future.  I think that anyone who is reading this should already know how they like to write **markdown**, so either use this app or choose this step to install the editer of your choice.
+
+10. **Oh My ZSH**
+
+<br/>
+
+11. **yarn**
+
+
+
+## Extra-Development Essentials
+---
+
+1. **Disord**
+
+    - Discord needs **Rosetta 2** as of writing this (Jan 30, 2022).  The good news is that there is already an Alpha that works with M1.  A little too early for me to want to use it, so I'm going to break and use **Rosetta 2**
 
     -
 
-**Macdown**
+2. **Slack**
 
-    - I actually downloaded this to test something for Helen
-    
+    - I am actually not installing this, I kind of hate Slack.  Putting on the list for others in case they use it.
+
+3. **Zoom**
+
+    - I wonder if Zoom will still be necessary in the future?  It sure seems like it won't last long.
